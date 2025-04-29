@@ -6,9 +6,12 @@ import { Link } from 'expo-router';
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Home screen</Text>
+      <Text style={styles.text}>hi, I’m Krhyginne! </Text>
+      <Text style={styles.text}>a UX Designer committed to growth, driven with  </Text>
+      <Text style={styles.text}>empathy & curiosity to create human-centered  </Text>
+      <Text style={styles.text}>solutions. Currently @ Asian Connections Hub </Text>
       <Link href="/about" style={styles.button}>
-        Go to About screen
+        About Me
       </Link>
     </View>
   );
@@ -18,15 +21,16 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#25292e',
+    backgroundColor: '#495441',
     alignItems:'center',
     justifyContent: 'center',
   },
   text:{
     color:'#fff',
+    fontSize: 20,
   },
   button:{
-    fontSize: 20,
+    fontSize: 16,
     textDecorationLine: 'underline',
     color: '#fff',
   },
