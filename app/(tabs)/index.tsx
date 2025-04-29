@@ -7,11 +7,8 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>hi, I’m Krhyginne! </Text>
-      <Text style={styles.text}>a UX Designer committed to growth, driven with  </Text>
-      <Text style={styles.text}>empathy & curiosity to create human-centered  </Text>
-      <Text style={styles.text}>solutions. Currently @ Asian Connections Hub </Text>
       <Link href="/about" style={styles.button}>
-        About Me
+        Go to About screen
       </Link>
     </View>
   );
@@ -21,17 +18,17 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#495441',
+    backgroundColor: '#fff',
     alignItems:'center',
     justifyContent: 'center',
   },
   text:{
-    color:'#fff',
+    color:'#0A0E21',
     fontSize: 20,
   },
   button:{
     fontSize: 16,
     textDecorationLine: 'underline',
-    color: '#fff',
+    color: '#0A0E21',
   },
 });

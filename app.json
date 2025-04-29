@@ -32,7 +32,10 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-font", {
+        "fonts": ["./assets/fonts/Poppins_400Regular.otf"]
+      }
     ],
     "experiments": {
       "typedRoutes": true
