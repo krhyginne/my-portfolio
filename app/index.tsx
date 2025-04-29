@@ -8,7 +8,7 @@ export default function Index() {
     <View style={styles.container}>
       <Text style={styles.text}>hi, I’m Krhyginne! </Text>
       <Link href="/about" style={styles.button}>
-        Go to About screen
+        About me
       </Link>
     </View>
   );
